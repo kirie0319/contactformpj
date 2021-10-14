@@ -1,0 +1,165 @@
+.contact_ttl {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.manage_container {
+    border: 2px solid #000;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.input {
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 10px;
+    display: block;
+    /* width: 90%; */
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex-date {
+    display: flex;
+}
+
+.name_container {
+    width: 40%;
+}
+
+.button {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #000;
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.reset {
+    display: block;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 20%;
+}
+
+.gender-label {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 10%;
+    margin-left: 30px;
+}
+
+.flex-gender {
+    margin-top: 10px;
+}
+
+.gender-radio {
+    transform: scale(3);
+    margin-left: 20px;
+}
+
+.gender-txt {
+    margin-left: 40px;
+}
+
+.date-span {
+    margin: 15px;
+}
+
+.pagination-view {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    display: flex;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.pagination-li {
+    padding: 5px;
+}
+
+.pagination-li-right {
+    border-left: 1px solid #000;
+    padding: 5px;
+}
+
+.pagination-li-left {
+    border-right: 1px solid #000;
+    padding: 5px;
+}
+
+.active {
+    background-color: #000;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.th-list {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+.th-id {
+    width: 5%;
+    text-align: center;
+}
+
+.th-name {
+    width: 10%;
+    text-align: center;
+}
+
+.th-gender {
+    width: 10%;
+    text-align: center;
+}
+
+.th-email {
+    width: 30%;
+    text-align: center;
+}
+
+td {
+    padding-top: 15px;
+}
+
+.delete {
+    display: block;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 2px 15px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.td {
+    text-align: center;
+}

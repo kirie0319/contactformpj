@@ -1,0 +1,113 @@
+.contact_ttl {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact_form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input {
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 15px;
+    display: block;
+    width: 90%;
+}
+
+.label {
+    line-height: 40px;
+    position: relative;
+}
+
+.label::after {
+    content: "※";
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    right: -25px;
+}
+
+.input-container {
+    margin-left: auto;
+    width: 70%;
+}
+
+.input-container_flex {
+    display: flex;
+}
+
+.input-margin {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contact_label {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.contact_name-input {
+    width: 45%;
+}
+
+.right {
+    margin-right: 0;
+    margin-left: 8%;
+}
+
+.contact_gender-input {
+    width: 10%;
+    transform: scale(3);
+}
+
+.gender-container {
+    margin-top: 15px;
+}
+
+.contact_postcode-input {
+    width: 89%;
+    margin-left: 3%;
+}
+
+.postcode-sign {
+    display: inline;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 50px;
+    margin-left: 2%;
+}
+
+.opinion-textarea {
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 15px;
+    display: block;
+    width: 90%;
+}
+
+.contact_opinion {
+    display: flex;
+}
+
+.button {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.example {
+    color: rgba(97, 93, 93, 0.767);
+    margin-top: 15px;
+    margin-left: 15px;
+}
